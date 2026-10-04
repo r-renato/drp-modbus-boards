@@ -58,6 +58,7 @@ from ..const import (
     CONF_REVERSE,
     CONF_USED_ENTITY,
     DEFAULT_HUB,
+    DESCRIPTION,
     DOMAIN,
     MODE_AUTO,
     MODE_BOX,
@@ -123,6 +124,7 @@ NUMBER_SCHEMA = BASE_COMPONENT_SCHEMA.extend(
 MODBUS_SCHEMA = vol.Schema(
     {
         vol.Required(CONF_NAME, default=DEFAULT_HUB): cv.string,
+        vol.Optional(DESCRIPTION): cv.string,
         vol.Optional(CONF_SCAN_INTERVAL, default=30): cv.positive_int,
 
         ### Modbus connection parameters for HA Modbus integration
@@ -141,6 +143,7 @@ MODBUS_SCHEMA = vol.Schema(
                         Board.ENEREN_RER020I_EFHR0_EVO,
                         Board.ELETECHSUP_10IOA04,
                         Board.ELETECHSUP_N4DBA06,
+                        Board.ELETECHSUP_N4ROD08,
                         Board.ELETECHSUP_NT18B07,
                         Board.ELETECHSUP_R4D3B16,
                         Board.WAVESHARE_RTU_RELAY,

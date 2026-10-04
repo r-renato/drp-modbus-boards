@@ -79,6 +79,8 @@ DEVICE_AREAS_DATA = "device_areas_data"
 # --- Metadati Schema ----------------------------------------------------
 DEFAULT_SCAN_INTERVAL = 30  # seconds
 
+DESCRIPTION = "description"
+
 CONF_DEVICES = "devices"
 CONF_DEVICE_FUNCTION = "device_function"
 

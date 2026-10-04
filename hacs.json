@@ -1,0 +1,12 @@
+{
+  "name": "Modbus Boards (DRP)",
+  "content_in_root": false,
+  "domains": [
+    "binary_sensor",
+    "number",
+    "switch",
+    "sensor"
+  ],
+  "homeassistant": "2023.9.4",
+  "iot_class": "local_poll"
+}

@@ -43,6 +43,7 @@ from .domain.models import eneren_rer020i  # noqa: F401
 from .domain.models import eastron_sdm120m  # noqa: F401
 from .domain.models import eletechsup_10ioa04  # noqa: F401
 from .domain.models import eletechsup_n4dba06  # noqa: F401
+from .domain.models import eletechsup_n4rod08  # noqa: F401
 from .domain.models import eletechsup_nt18b07  # noqa: F401
 from .domain.models import eletechsup_r4d3b16  # noqa: F401
 from .domain.models import gauselink_th02_pe  # noqa: F401

@@ -82,6 +82,9 @@ class SensorFunction(StrEnum):
     CURRENT = "current"
     ACTIVE_POWER = "active_power"
     TOTAL_ACTIVE_ENERGY = "total_active_energy"
+    APPARENT_POWER = "apparent_power"
+    REACTIVE_POWER = "reactive_power"
+    POWER_FACTOR = "power_factor"
 
     VOLTAGE_IN2 = "voltage_in2"
     VOLTAGE_IN2_PERCENTAGE = "voltage_in2_percentage"

@@ -1,7 +1,7 @@
 -r requirements.txt
 
 # Versione di Home Assistant usata per i test
-homeassistant==2026.3.0
+homeassistant==2026.9.4
 
 pylint
 pytest
